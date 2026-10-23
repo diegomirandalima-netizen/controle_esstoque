@@ -19,3 +19,7 @@
             <input type="text" id="nome" name="nome" required>         
         </div> 
         <div> 
+                 <button type="submit">Cadastrar Produto</button> 
+
+</body> 
+</html> 
