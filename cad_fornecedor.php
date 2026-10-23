@@ -3,8 +3,8 @@
 <head> 
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link rel="stylesheet" href="style.css"> 
-    <title>Cadastro do fornecedor</title> 
+    <link rel="stylesheet" href="conexao.php"> 
+    <title>Cadastro do fornecedores</title> 
 </head> 
     <body> 
 
@@ -15,15 +15,17 @@
             <label for="id_fornecedor">ID do fornecedor:</label>               
             <input type="text" id="id_fornecedor" name="id_fornecedor" placeholder="Gerado automaticamente" >
         </div> 
+
         <div> 
             <label for="nome">Nome:</label>                            
             <input type="text" id="nome" name="nome" required> 
         </div> 
+
         <div> 
-           <div> 
             <label for="telefone">Telefone:</label>                    
             <input type="tel" id="telefone" name="telefone">   
         </div> 
+
         <div> 
             <label for="email">Email:</label>                           
             <input type="email" id="email" name="email">      
