@@ -21,7 +21,7 @@
 
         <p>
             <label>Preço:</label><br> 
-            <input type="number" step="0.01" name="preco" required>
+            <input type="int" step="" name="preco" required>
         </p> 
 
         <p>
