@@ -20,9 +20,10 @@
         </p> 
 
         <p>
-            <label>Preço:</label><br> 
-            <input type="int" step="" name="preco" required>
-        </p> 
+    <label>Preço:</label><br> 
+    <input type="number" step="0.01" name="preco" lang="pt-BR" required>
+</p> 
+
 
         <p>
             <label>Quantidade:</label><br>
